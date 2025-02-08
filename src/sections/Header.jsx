@@ -39,7 +39,7 @@ const Header = () => {
     >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a href="" className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="/images/xora.svg" width={115} height={55} alt="logo" />
+          <img src="./src/assets/images/xora.svg" width={115} height={55} alt="logo" />
         </a>
         <div
           className={clsx(
@@ -66,7 +66,7 @@ const Header = () => {
                     )}
                   >
                     <img
-                      src="/images/xora.svg"
+                      src="./src/assets/images/xora.svg"
                       width={160}
                       height={55}
                       alt="logo"
@@ -82,14 +82,14 @@ const Header = () => {
             </nav>
             <div className="lg:hidden block absolute top-1/2 left-0 w-[960px] h-[380px] translate-x-[-290px] -translate-y-1/2 rotate-90">
               <img
-                src="/images/bg-outlines.svg"
+                src="./src/assets/images/bg-outlines.svg"
                 width={960}
                 height={380}
                 alt="outline"
                 className="relative z-2"
               />
               <img
-                src="/images/bg-outlines-fill.png"
+                src="./src/assets/images/bg-outlines-fill.png"
                 width={960}
                 height={380}
                 alt="outline"
@@ -103,7 +103,7 @@ const Header = () => {
           className="lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center"
         >
           <img
-            src={`/images/${isOpen ? "close" : "magic"}.svg`}
+            src={`./src/assets/images/${isOpen ? "close" : "magic"}.svg`}
             className="size-1/2 object-contain"
             alt="magic"
           />
